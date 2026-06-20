@@ -152,6 +152,21 @@
     });
   })();
 
+  /* ---------- Tile audio toggle ---------- */
+  (() => {
+    $$('.tile__audio').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        const video = btn.closest('.tile__media').querySelector('video');
+        if (!video) return;
+        video.muted = !video.muted;
+        const unmuted = !video.muted;
+        btn.classList.toggle('is-unmuted', unmuted);
+        btn.setAttribute('aria-label', unmuted ? 'Mute' : 'Unmute');
+      });
+    });
+  })();
+
   /* ---------- YouTube thumbnails: upgrade to maxres if available ---------- */
   (() => {
     $$('.film__thumb[data-hq]').forEach(img => {
@@ -178,6 +193,17 @@
     });
   })();
 
+  /* ---------- Instagram link-out cards ---------- */
+  (() => {
+    $$('.film[data-ig-href]').forEach(film => {
+      const btn = film.querySelector('.film__btn');
+      if (!btn) return;
+      btn.addEventListener('click', () => {
+        window.open(film.dataset.igHref, '_blank', 'noopener');
+      });
+    });
+  })();
+
   /* ---------- Brand marquee: duplicate sequence for a seamless loop ---------- */
   (() => {
     $$('[data-marquee]').forEach(m => {
@@ -186,6 +212,8 @@
       if (!track || !seq) return;
       const clone = seq.cloneNode(true);
       clone.setAttribute('aria-hidden', 'true');
+      // Keep cloned links out of the tab order (duplicates of the real ones)
+      clone.querySelectorAll('a').forEach(a => a.setAttribute('tabindex', '-1'));
       track.appendChild(clone);
       m.classList.add('is-ready');
     });

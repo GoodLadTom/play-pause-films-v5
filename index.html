@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preload" as="image" href="assets/img/poster_fb9b645cee49d01d766aade80b3ba4c3.jpg" />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -78,11 +78,11 @@
       </a>
 
       <nav class="nav" aria-label="Primary">
-        <a href="#studio"><span class="nav__idx">01</span> Studio</a>
-        <a href="#work"><span class="nav__idx">02</span> Work</a>
-        <a href="#films"><span class="nav__idx">03</span> Films</a>
-        <a href="#experience"><span class="nav__idx">04</span> Experience</a>
-        <a href="#reel"><span class="nav__idx">05</span> Reel</a>
+        <a href="#studio"><span class="nav__idx">01</span> Mission</a>
+        <a href="#work"><span class="nav__idx">02</span> Reels</a>
+        <a href="#films"><span class="nav__idx">03</span> Portfolio</a>
+        <a href="#experience"><span class="nav__idx">04</span> Testimonials</a>
+        <a href="#reel"><span class="nav__idx">05</span> Services</a>
         <a href="#contact"><span class="nav__idx">06</span> Contact</a>
       </nav>
 
@@ -103,11 +103,11 @@
   <!-- Mobile navigation -->
   <div class="mobile-nav" id="mobile-nav" data-mobile-nav hidden>
     <nav aria-label="Mobile">
-      <a href="#studio"><span>01</span> Studio</a>
-      <a href="#work"><span>02</span> Work</a>
-      <a href="#films"><span>03</span> Films</a>
-      <a href="#experience"><span>04</span> Experience</a>
-      <a href="#reel"><span>05</span> Reel</a>
+      <a href="#studio"><span>01</span> Mission</a>
+      <a href="#work"><span>02</span> Reels</a>
+      <a href="#films"><span>03</span> Portfolio</a>
+      <a href="#experience"><span>04</span> Testimonials</a>
+      <a href="#reel"><span>05</span> Services</a>
       <a href="#contact"><span>06</span> Contact</a>
     </nav>
     <div class="mobile-nav__foot">
@@ -122,10 +122,10 @@
     <!-- ============================ HERO ============================ -->
     <section class="hero" id="hero" aria-label="Showreel">
       <div class="hero__media">
-        <img class="hero__poster" src="assets/img/poster_fb9b645cee49d01d766aade80b3ba4c3.jpg"
-             alt="Performer singing in a brightly lit underpass — a frame from a Play Pause Films production" />
+        <img class="hero__poster" src="assets/img/boomtown-still-3.png"
+             alt="Festival stage at night — fire columns and purple light over a massive crowd — a Play Pause Films production" />
         <video class="hero__video" data-hero-video
-               poster="assets/img/poster_fb9b645cee49d01d766aade80b3ba4c3.jpg"
+               poster="assets/img/boomtown-still-3.png"
                muted loop playsinline preload="none"
                data-src-720="assets/video/clip1-hero-720.mp4"
                data-src-360="assets/video/clip1-hero-360.mp4"></video>
@@ -168,7 +168,7 @@
           <span class="hud__k">SOURCE</span><span class="hud__v">PPF&nbsp;/&nbsp;SHOWREEL</span>
         </div>
         <div class="hud__group">
-          <span class="hud__k">FORMAT</span><span class="hud__v">1920×1080</span>
+          <span class="hud__k">FORMAT</span><span class="hud__v">6144×3456</span>
         </div>
         <div class="hud__group">
           <span class="hud__k">RATE</span><span class="hud__v">24 FPS</span>
@@ -185,34 +185,32 @@
     </section>
 
     <!-- ============================ BRAND MARQUEE ============================ -->
-    <!-- PLACEHOLDER LOGOS: London clubs + grime/DnB artists, styled as wordmarks.
-         Swap each <li> for a real client logo <img>/<svg> when available. -->
     <section class="logobar" aria-label="Selected brands and artists">
       <div class="shell logobar__head">
         <span class="logobar__label">// Selected brands &amp; artists</span>
         <span class="logobar__hint" aria-hidden="true">&raquo;&raquo;</span>
       </div>
-      <div class="marquee" data-marquee aria-label="Scrolling list of brands and artists">
+      <div class="marquee" data-marquee aria-label="Scrolling list of client logos">
         <div class="marquee__track">
           <ul class="marquee__seq">
-            <li class="lw lw--wide">Fabric</li>
-            <li class="lw lw--title">Hospital Records</li>
-            <li class="lw lw--bold">Stormzy</li>
-            <li class="lw lw--wide">Ministry of Sound</li>
-            <li class="lw lw--bold">Skepta</li>
-            <li class="lw lw--bold">RAM</li>
-            <li class="lw lw--title">Printworks</li>
-            <li class="lw">Wiley</li>
-            <li class="lw lw--mark">Metalheadz</li>
-            <li class="lw lw--wide">XOYO</li>
-            <li class="lw lw--bold">Kano</li>
-            <li class="lw lw--title">Andy C</li>
-            <li class="lw lw--wide">Corsica Studios</li>
-            <li class="lw lw--title">Chase &amp; Status</li>
-            <li class="lw lw--bold">JME</li>
-            <li class="lw lw--title">Sub Focus</li>
-            <li class="lw">Ghetts</li>
-            <li class="lw lw--wide">Village Underground</li>
+            <li class="lw lw--dk"        style="--lw-h:50px"><a href="https://www.instagram.com/p/C4Val9UCWs4/" target="_blank" rel="noopener"><img src="assets/img/client-logos/fabric.png" alt="Fabric" loading="lazy" decoding="async" /></a></li>
+            <li class="lw"               style="--lw-h:46px"><a href="https://www.instagram.com/p/CsWrjnpq7LY/" target="_blank" rel="noopener"><img src="assets/img/client-logos/big-narstie.png" alt="Big Narstie" loading="lazy" decoding="async" /></a></li>
+            <li class="lw lw--dk lw--badge" style="--lw-h:100px"><a href="https://youtu.be/eij7r7p2xXU" target="_blank" rel="noopener"><img src="assets/img/client-logos/ministry-of-sound.png" alt="Ministry of Sound" loading="lazy" decoding="async" /></a></li>
+            <li class="lw"               style="--lw-h:44px"><a href="https://youtu.be/mLZwoJuncX8?si=jE32Q1fOOehz0O2x" target="_blank" rel="noopener"><img src="assets/img/client-logos/flexout.png" alt="Flexout Audio" loading="lazy" decoding="async" /></a></li>
+            <li class="lw lw--dk lw--badge" style="--lw-h:90px"><a href="https://www.youtube.com/watch?v=y7kkbxoKRso" target="_blank" rel="noopener"><img src="assets/img/client-logos/corsica-studios.png" alt="Corsica Studios" loading="lazy" decoding="async" /></a></li>
+            <li class="lw lw--badge"     style="--lw-h:120px"><a href="https://www.youtube.com/watch?v=hILytwgZdjE&list=PLJUG_HERBqglA4_LMWXDVffFItct2lM_x&index=4" target="_blank" rel="noopener"><img src="assets/img/client-logos/ukf.png" alt="UKF" loading="lazy" decoding="async" /></a></li>
+            <li class="lw lw--dk"        style="--lw-h:200px"><a href="https://www.youtube.com/watch?v=GMm5wYyyRyo" target="_blank" rel="noopener"><img src="assets/img/client-logos/boomtown.png" alt="Boomtown" loading="lazy" decoding="async" /></a></li>
+            <li class="lw"               style="--lw-h:80px"><a href="https://www.youtube.com/watch?v=GMm5wYyyRyo" target="_blank" rel="noopener"><img src="assets/img/client-logos/shogun-audio.jpg" alt="Shogun Audio" loading="lazy" decoding="async" /></a></li>
+            <li class="lw lw--dk lw--badge" style="--lw-h:90px"><a href="https://www.youtube.com/watch?v=y7kkbxoKRso" target="_blank" rel="noopener"><img src="assets/img/client-logos/critical-music.png" alt="Critical Music" loading="lazy" decoding="async" /></a></li>
+            <li class="lw"               style="--lw-h:70px"><a href="https://www.youtube.com/watch?v=ySK3MmlFBiY&list=PLPFMJB3UJPNZA8Sr_XTIa-GYvKRt6it5L&index=2" target="_blank" rel="noopener"><img src="assets/img/client-logos/school-of-uke.png" alt="School of Uke" loading="lazy" decoding="async" /></a></li>
+            <li class="lw lw--dk lw--badge" style="--lw-h:100px"><a href="https://www.instagram.com/p/DVL_jDRjL1Z/" target="_blank" rel="noopener"><img src="assets/img/client-logos/soulvent.png" alt="Soulvent" loading="lazy" decoding="async" /></a></li>
+            <li class="lw"               style="--lw-h:180px"><a href="https://www.youtube.com/watch?v=qJN2SH7gS1Y" target="_blank" rel="noopener"><img src="assets/img/client-logos/weezevent.png" alt="Weezevent" loading="lazy" decoding="async" /></a></li>
+            <li class="lw"               style="--lw-h:120px"><a href="https://www.youtube.com/watch?v=uZYOvXx9sHI" target="_blank" rel="noopener"><img src="assets/img/client-logos/high-focus-records.png" alt="High Focus Records" loading="lazy" decoding="async" /></a></li>
+            <li class="lw lw--dk lw--badge" style="--lw-h:74px"><a href="https://youtu.be/tFnIQnBOLnQ?si=0jeIJORa8vgPVqG0" target="_blank" rel="noopener"><img src="assets/img/client-logos/secret-garden-party.png" alt="Secret Garden Party" loading="lazy" decoding="async" /></a></li>
+            <li class="lw lw--dk lw--badge" style="--lw-h:90px"><a href="https://youtu.be/Fm7DQxcgFiw?si=UuYsd-u4bCk9Ml5v" target="_blank" rel="noopener"><img src="assets/img/client-logos/ariwa.png" alt="Ariwa" loading="lazy" decoding="async" /></a></li>
+            <li class="lw lw--dk lw--badge" style="--lw-h:90px"><a href="https://www.instagram.com/p/DYB-PsDDk2O/" target="_blank" rel="noopener"><img src="assets/img/client-logos/real-fundraising.png" alt="Real Fundraising" loading="lazy" decoding="async" /></a></li>
+            <li class="lw lw--dk lw--badge" style="--lw-h:160px"><a href="https://www.youtube.com/watch?v=jA4qL5ksPew" target="_blank" rel="noopener"><img src="assets/img/client-logos/passyunk-avenue.png" alt="Passyunk Avenue" loading="lazy" decoding="async" /></a></li>
+            <li class="lw lw--dk lw--badge" style="--lw-h:80px"><img src="assets/img/client-logos/cask-marque.png" alt="Cask Marque" loading="lazy" decoding="async" /></li>
           </ul>
         </div>
       </div>
@@ -223,14 +221,28 @@
       <div class="shell">
         <header class="section__head">
           <span class="section__no">01</span>
-          <span class="section__label">Studio · Manifesto</span>
+          <span class="section__label">Mission Statement and Values</span>
         </header>
 
         <div class="studio__grid">
           <div class="studio__copy">
             <p class="manifesto">
-              At <span class="manifesto__mark">Play Pause Films</span>, we passionately believe in transforming every moment into a compelling narrative. As dedicated artists and storytellers, our unique approach to filmmaking goes beyond mere image capture.
+              At <span class="manifesto__mark">Play Pause Films</span>, we transform every moment into a compelling narrative. As dedicated artists and storytellers, our unique approach to filmmaking goes beyond mere image capture.
             </p>
+            <ul class="values">
+              <li class="values__item">
+                <span class="values__no">I</span>
+                <span class="values__label">Artist to Client Experience</span>
+              </li>
+              <li class="values__item">
+                <span class="values__no">II</span>
+                <span class="values__label">Storytelling Excellence</span>
+              </li>
+              <li class="values__item">
+                <span class="values__no">III</span>
+                <span class="values__label">Organisational Precision</span>
+              </li>
+            </ul>
           </div>
           <aside class="studio__side">
             <ul class="spec-list">
@@ -250,7 +262,7 @@
         <header class="section__head section__head--row">
           <div>
             <span class="section__no">02</span>
-            <h2 class="section__title">Selected work</h2>
+            <h2 class="section__title">Reels</h2>
           </div>
           <p class="section__intro">A curated timeline of frames from the cutting room — captured, graded and cut in-house.</p>
         </header>
@@ -262,54 +274,61 @@
         </div>
 
         <div class="work__grid">
-          <!-- Clip 1 -->
+          <!-- Music Reel -->
           <figure class="tile tile--wide" data-video data-reveal>
             <div class="tile__media">
               <video class="tile__video" muted loop playsinline preload="none"
-                     poster="assets/img/poster_fb9b645cee49d01d766aade80b3ba4c3.jpg"
-                     data-src="assets/video/clip1-hero-360.mp4"
-                     aria-label="Performer singing in a brightly lit underpass"></video>
-              <span class="tile__play" aria-hidden="true"></span>
+                     data-src="assets/video/SHOWREELS/music-reel.mp4"
+                     aria-label="Music showreel — Play Pause Films"></video>
+              <button class="tile__audio" aria-label="Unmute">
+                <svg class="tile__audio-icon--muted" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" fill="currentColor"><path d="M4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
+                <svg class="tile__audio-icon--on" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+              </button>
               <span class="tile__corner tile__corner--tl"></span>
               <span class="tile__corner tile__corner--br"></span>
             </div>
             <figcaption class="tile__meta">
-              <span class="tile__code">SEQUENCE · 01</span>
-              <span class="tile__spec">1920×1080 · 24FPS · 00:27</span>
+              <span class="tile__code">MUSIC REEL · 01</span>
+              <span class="tile__spec">6144×3456 · 24FPS</span>
             </figcaption>
           </figure>
 
-          <!-- Clip 3 -->
+          <!-- Hospitality Reel -->
           <figure class="tile" data-video data-reveal>
             <div class="tile__media">
               <video class="tile__video" muted loop playsinline preload="none"
-                     poster="assets/img/poster_cb35495ac8d2b952833d37d5de7e12e2.jpg"
-                     data-src="assets/video/clip3-street-360.mp4"
-                     aria-label="Street scene with a worker in hi-vis beside residential blocks"></video>
-              <span class="tile__play" aria-hidden="true"></span>
+                     data-src="assets/video/SHOWREELS/hospitality-reel.mp4"
+                     aria-label="Hospitality showreel — Play Pause Films"></video>
+              <button class="tile__audio" aria-label="Unmute">
+                <svg class="tile__audio-icon--muted" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" fill="currentColor"><path d="M4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
+                <svg class="tile__audio-icon--on" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+              </button>
               <span class="tile__corner tile__corner--tl"></span>
               <span class="tile__corner tile__corner--br"></span>
             </div>
             <figcaption class="tile__meta">
-              <span class="tile__code">CAPTURE · 03</span>
-              <span class="tile__spec">1920×1080 · 25FPS · 00:38</span>
+              <span class="tile__code">HOSPITALITY REEL · 02</span>
+              <span class="tile__spec">6144×3456 · 24FPS</span>
             </figcaption>
           </figure>
 
           <!-- Clip 4 -->
+          <!-- Drone Reel -->
           <figure class="tile" data-video data-reveal>
             <div class="tile__media tile__media--tall">
               <video class="tile__video" muted loop playsinline preload="none"
-                     poster="assets/img/poster_e139dd0fb528d018af26ee481311b456.jpg"
-                     data-src="assets/video/clip4-mural-540.mp4"
-                     aria-label="Aerial view of a tower block painted with a large mural"></video>
-              <span class="tile__play" aria-hidden="true"></span>
+                     data-src="assets/video/SHOWREELS/Drone-Reel.mp4"
+                     aria-label="Drone showreel — Play Pause Films"></video>
+              <button class="tile__audio" aria-label="Unmute">
+                <svg class="tile__audio-icon--muted" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" fill="currentColor"><path d="M4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
+                <svg class="tile__audio-icon--on" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+              </button>
               <span class="tile__corner tile__corner--tl"></span>
               <span class="tile__corner tile__corner--br"></span>
             </div>
             <figcaption class="tile__meta">
-              <span class="tile__code">AERIAL · 04</span>
-              <span class="tile__spec">1280×1080 · 25FPS · 00:55</span>
+              <span class="tile__code">DRONE REEL · 03</span>
+              <span class="tile__spec">6144×3456 · 24FPS</span>
             </figcaption>
           </figure>
 
@@ -323,43 +342,42 @@
         <header class="section__head section__head--row">
           <div>
             <span class="section__no">03</span>
-            <h2 class="section__title">Featured films</h2>
+            <h2 class="section__title">Portfolio</h2>
           </div>
           <p class="section__intro">Full pieces, straight from our channel. Press play.</p>
         </header>
 
         <div class="films__grid">
-          <article class="film" data-yt="eij7r7p2xXU" data-reveal>
-            <button class="film__btn" type="button" aria-label="Play featured film 01">
+          <article class="film" data-reveal>
+            <a class="film__btn" href="https://www.youtube.com/watch?v=qJN2SH7gS1Y" target="_blank" rel="noopener" aria-label="Watch featured film 01 on YouTube">
               <img class="film__thumb" loading="lazy" decoding="async"
-                   src="https://i.ytimg.com/vi/eij7r7p2xXU/hqdefault.jpg"
-                   data-hq="https://i.ytimg.com/vi/eij7r7p2xXU/maxresdefault.jpg"
+                   src="https://i.ytimg.com/vi/qJN2SH7gS1Y/hqdefault.jpg"
+                   data-hq="https://i.ytimg.com/vi/qJN2SH7gS1Y/maxresdefault.jpg"
                    alt="Featured film 01 — Play Pause Films" width="640" height="360" />
               <span class="film__play" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
-            </button>
-            <div class="film__meta"><span>FILM · 01</span><span class="film__ref">REF eij7r7p2xXU</span></div>
+            </a>
+            <div class="film__meta"><span>FILM · 01</span><span class="film__ref">YOUTUBE</span></div>
           </article>
 
-          <article class="film" data-yt="m_BMZfvzcGk" data-reveal>
-            <button class="film__btn" type="button" aria-label="Play featured film 02">
+          <article class="film" data-reveal>
+            <a class="film__btn" href="https://www.youtube.com/watch?v=tFnIQnBOLnQ" target="_blank" rel="noopener" aria-label="Watch featured film 02 on YouTube">
               <img class="film__thumb" loading="lazy" decoding="async"
-                   src="https://i.ytimg.com/vi/m_BMZfvzcGk/hqdefault.jpg"
-                   data-hq="https://i.ytimg.com/vi/m_BMZfvzcGk/maxresdefault.jpg"
+                   src="https://i.ytimg.com/vi/tFnIQnBOLnQ/hqdefault.jpg"
+                   data-hq="https://i.ytimg.com/vi/tFnIQnBOLnQ/maxresdefault.jpg"
                    alt="Featured film 02 — Play Pause Films" width="640" height="360" />
               <span class="film__play" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
-            </button>
-            <div class="film__meta"><span>FILM · 02</span><span class="film__ref">REF m_BMZfvzcGk</span></div>
+            </a>
+            <div class="film__meta"><span>FILM · 02</span><span class="film__ref">YOUTUBE</span></div>
           </article>
 
-          <article class="film" data-yt="kJl_QygGDws" data-reveal>
-            <button class="film__btn" type="button" aria-label="Play featured film 03">
+          <article class="film" data-reveal>
+            <a class="film__btn" href="https://www.instagram.com/p/DImFxhBArWe/" target="_blank" rel="noopener" aria-label="Watch featured film 03 on Instagram">
               <img class="film__thumb" loading="lazy" decoding="async"
-                   src="https://i.ytimg.com/vi/kJl_QygGDws/hqdefault.jpg"
-                   data-hq="https://i.ytimg.com/vi/kJl_QygGDws/maxresdefault.jpg"
+                   src="assets/img/live-performance.png"
                    alt="Featured film 03 — Play Pause Films" width="640" height="360" />
               <span class="film__play" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
-            </button>
-            <div class="film__meta"><span>FILM · 03</span><span class="film__ref">REF kJl_QygGDws</span></div>
+            </a>
+            <div class="film__meta"><span>FILM · 03</span><span class="film__ref">INSTAGRAM</span></div>
           </article>
         </div>
 
@@ -376,12 +394,8 @@
     <section class="section experience" id="experience" data-reveal>
       <img class="experience__texture" src="assets/img/media_7f74ae7545fd7d1c255493a44f4858cb.png" alt="" loading="lazy" decoding="async" aria-hidden="true" />
       <div class="shell experience__grid">
-        <div class="experience__media" data-video>
-          <video class="experience__video" muted loop playsinline preload="none"
-                 poster="assets/img/poster_fb9b645cee49d01d766aade80b3ba4c3.jpg"
-                 data-src-720="assets/video/clip1-hero-720.mp4"
-                 data-src-360="assets/video/clip1-hero-360.mp4"
-                 aria-label="A frame from a Play Pause Films music production"></video>
+        <div class="experience__media">
+          <img class="experience__photo" src="assets/img/boomtown-still-3.png" alt="Dramatic nighttime festival stage with fire columns and purple light over a massive crowd" loading="lazy" decoding="async" />
           <span class="experience__badge">ARTIST-TO-CLIENT</span>
           <span class="tile__corner tile__corner--tl"></span>
           <span class="tile__corner tile__corner--br"></span>
@@ -389,11 +403,46 @@
         <div class="experience__copy">
           <header class="section__head">
             <span class="section__no">04</span>
-            <span class="section__label">The human side</span>
+            <span class="section__label">Testimonials</span>
           </header>
           <p class="experience__lead">
-            Specialising in artist-to-client experience. Our team is dedicated to crafting videos that capture the essence of your message — and have fun while doing it.
+            As dedicated artists and storytellers. We go beyond mere image capture — crafting cinema that carries your message.
           </p>
+
+          <div class="testimonials">
+            <blockquote class="testimonial">
+              <p class="testimonial__quote">Working with the team at Play Pause Films was as seamless as I'd hoped. From the moment the team were on site, they were on the job and, more importantly, contributed to the general vibe of our stage. From start to finish, a professional outfit that doesn't cut corners.</p>
+              <footer class="testimonial__footer">
+                <span class="testimonial__name">Laville</span>
+                <span class="testimonial__co">Noirganica</span>
+              </footer>
+            </blockquote>
+
+            <blockquote class="testimonial">
+              <p class="testimonial__quote">Working with Kyle has been a fun and thrilling experience. Not only does he throw himself into his practical capabilities 110%, but his friendly, unique approach to creating visual materials has helped our brand grow exponentially. We are returning clients of his, and I highly recommend him to any hospitality-based company to hire him for his skilled and intelligent approach. Thank you, Kyle and Play Pause Films!</p>
+              <footer class="testimonial__footer">
+                <span class="testimonial__name">Gaz Hayden</span>
+                <span class="testimonial__co">Passyunk Avenue</span>
+              </footer>
+            </blockquote>
+
+            <blockquote class="testimonial">
+              <p class="testimonial__quote">Kyle at Play Pause Films has been a brilliant creative partner on two of our recent projects. Kyle documented our large multi-storey mural in Ilford, The Weaver by Shauna Blachfield, from start to finish; shooting, editing, and capturing the full progression with certified drone footage that added real depth to the story of the wall. Our other project was a community football activation for a non-league team in Walthamstow, again using his drone and delivering over 50 minutes of high-quality rushes and b-roll that will fuel a wide range of social content. His speed, work ethic, and ability to follow shot lists and creative direction, while also proposing smart improvements based on his knowledge and experience, make him a strong partner to work with. We would be delighted to collaborate with him again.</p>
+              <footer class="testimonial__footer">
+                <span class="testimonial__name">Mark Clack</span>
+                <span class="testimonial__co">Wood Street Walls</span>
+              </footer>
+            </blockquote>
+
+            <blockquote class="testimonial">
+              <p class="testimonial__quote">We worked with Play Pause Films on our Aftermovie for Boomtown Festival. Kyle understood our needs well and was a pleasure to work with throughout. He was patient through our amendments and as keen as we were to achieve the best final result. I wouldn't hesitate to recommend Play Pause's services to anyone looking for high-quality, professional video production.</p>
+              <footer class="testimonial__footer">
+                <span class="testimonial__name">Sam</span>
+                <span class="testimonial__co">Kaboodle — a Weezevent Company</span>
+              </footer>
+            </blockquote>
+          </div>
+
           <a class="link-cta" href="#contact">
             Start a project
             <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -408,28 +457,112 @@
         <header class="section__head section__head--row">
           <div>
             <span class="section__no">05</span>
-            <h2 class="section__title">Visual reel</h2>
+            <h2 class="section__title">Services</h2>
           </div>
-          <p class="section__intro">Frames and clips from the archive. Select any frame to enlarge.</p>
+          <p class="section__intro">Every format, every brief. Click any service to see the work.</p>
         </header>
 
-        <div class="reel__grid">
-          <button class="frame" data-lightbox data-type="image" data-src="assets/img/poster_fb9b645cee49d01d766aade80b3ba4c3.jpg" data-caption="Frame 01 — performance" data-reveal>
-            <img src="assets/img/poster_fb9b645cee49d01d766aade80b3ba4c3.jpg" alt="Performer singing in a brightly lit underpass" loading="lazy" decoding="async" width="640" height="360" />
-            <span class="frame__tag">FRAME 01</span>
-          </button>
-          <button class="frame" data-lightbox data-type="image" data-src="assets/img/poster_cb35495ac8d2b952833d37d5de7e12e2.jpg" data-caption="Frame 02 — location" data-reveal>
-            <img src="assets/img/poster_cb35495ac8d2b952833d37d5de7e12e2.jpg" alt="Street scene with a worker in hi-vis beside residential blocks" loading="lazy" decoding="async" width="640" height="360" />
-            <span class="frame__tag">FRAME 02</span>
-          </button>
-          <button class="frame" data-lightbox data-type="image" data-src="assets/img/poster_e139dd0fb528d018af26ee481311b456.jpg" data-caption="Frame 03 — aerial" data-reveal>
-            <img src="assets/img/poster_e139dd0fb528d018af26ee481311b456.jpg" alt="Aerial view of a tower block painted with a large mural" loading="lazy" decoding="async" width="640" height="540" />
-            <span class="frame__tag">FRAME 03</span>
-          </button>
-          <button class="frame" data-lightbox data-type="image" data-src="assets/img/poster_154c1a6531010ae1dedaab35f3d950fb.jpg" data-caption="Frame 04 — brand montage" data-reveal>
-            <img src="assets/img/poster_154c1a6531010ae1dedaab35f3d950fb.jpg" alt="Montage of brand and artist logos" loading="lazy" decoding="async" width="640" height="360" />
-            <span class="frame__tag">FRAME 04</span>
-          </button>
+        <div class="services__grid">
+
+          <a class="service" href="http://youtu.be/uZYOvXx9sHI" target="_blank" rel="noopener" data-reveal>
+            <div class="service__thumb">
+              <img src="https://i.ytimg.com/vi/uZYOvXx9sHI/hqdefault.jpg" alt="Music Videos" loading="lazy" decoding="async" width="640" height="360" />
+              <span class="service__arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="service__meta">
+              <span class="service__no">01</span>
+              <span class="service__name">Music Videos</span>
+            </div>
+          </a>
+
+          <a class="service" href="https://www.instagram.com/p/DHJ40woNpFl/" target="_blank" rel="noopener" data-reveal>
+            <div class="service__thumb">
+              <img src="assets/img/boomtown-still-1.png" alt="Aftermovies" loading="lazy" decoding="async" width="640" height="360" />
+              <span class="service__arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="service__meta">
+              <span class="service__no">02</span>
+              <span class="service__name">Aftermovies</span>
+            </div>
+          </a>
+
+          <a class="service" href="https://www.instagram.com/p/DPD85qJiJr2/" target="_blank" rel="noopener" data-reveal>
+            <div class="service__thumb">
+              <img src="assets/img/documentary-interview.png" alt="Interviews" loading="lazy" decoding="async" width="640" height="360" />
+              <span class="service__arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="service__meta">
+              <span class="service__no">03</span>
+              <span class="service__name">Interviews</span>
+            </div>
+          </a>
+
+          <a class="service" href="https://drive.google.com/file/d/1MJ2x6385fY3zrEt9Oun2Oqp1D_UJ6COE/view?usp=drive_link" target="_blank" rel="noopener" data-reveal>
+            <div class="service__thumb">
+              <img src="assets/img/sgp-norteanica.png" alt="Social Media Content" loading="lazy" decoding="async" width="640" height="360" />
+              <span class="service__arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="service__meta">
+              <span class="service__no">04</span>
+              <span class="service__name">Social Media Content</span>
+            </div>
+          </a>
+
+          <a class="service" href="https://youtu.be/5uwC0ELD2XM?list=PLJUG_HERBqglA4_LMWXDVffFItct2lM_x" target="_blank" rel="noopener" data-reveal>
+            <div class="service__thumb">
+              <img src="https://i.ytimg.com/vi/5uwC0ELD2XM/hqdefault.jpg" alt="Podcasts" loading="lazy" decoding="async" width="640" height="360" />
+              <span class="service__arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="service__meta">
+              <span class="service__no">05</span>
+              <span class="service__name">Podcasts</span>
+            </div>
+          </a>
+
+          <a class="service" href="https://youtu.be/mLZwoJuncX8?list=PLJUG_HERBqglA4_LMWXDVffFItct2lM_x" target="_blank" rel="noopener" data-reveal>
+            <div class="service__thumb">
+              <img src="https://i.ytimg.com/vi/mLZwoJuncX8/hqdefault.jpg" alt="Multicam" loading="lazy" decoding="async" width="640" height="360" />
+              <span class="service__arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="service__meta">
+              <span class="service__no">06</span>
+              <span class="service__name">Multicam</span>
+            </div>
+          </a>
+
+          <a class="service" href="https://app.spotlight.com/3338-0167-4561" target="_blank" rel="noopener" data-reveal>
+            <div class="service__thumb">
+              <img src="assets/img/vfx-narrative.png" alt="Actor Showreels" loading="lazy" decoding="async" width="640" height="360" />
+              <span class="service__arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="service__meta">
+              <span class="service__no">07</span>
+              <span class="service__name">Actor Showreels</span>
+            </div>
+          </a>
+
+          <a class="service" href="https://www.youtube.com/watch?v=tFnIQnBOLnQ" target="_blank" rel="noopener" data-reveal>
+            <div class="service__thumb">
+              <img src="https://i.ytimg.com/vi/tFnIQnBOLnQ/hqdefault.jpg" alt="Documentaries" loading="lazy" decoding="async" width="640" height="360" />
+              <span class="service__arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="service__meta">
+              <span class="service__no">08</span>
+              <span class="service__name">Documentaries</span>
+            </div>
+          </a>
+
+          <a class="service" href="https://drive.google.com/file/d/1t7ZGhhM-8okSFmXkuzHf9JNDLfeBbpLi/view?usp=sharing" target="_blank" rel="noopener" data-reveal>
+            <div class="service__thumb">
+              <img src="assets/img/speedboats-parliament.png" alt="Website Landing Page Videos" loading="lazy" decoding="async" width="640" height="360" />
+              <span class="service__arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="service__meta">
+              <span class="service__no">09</span>
+              <span class="service__name">Website Landing Page Videos</span>
+            </div>
+          </a>
+
         </div>
       </div>
     </section>
@@ -488,10 +621,11 @@
       </div>
 
       <nav class="site-footer__nav" aria-label="Footer">
-        <a href="#work">Work</a>
-        <a href="#films">Films</a>
-        <a href="#studio">Studio</a>
-        <a href="#reel">Reel</a>
+        <a href="#studio">Mission</a>
+        <a href="#work">Reels</a>
+        <a href="#films">Portfolio</a>
+        <a href="#experience">Testimonials</a>
+        <a href="#reel">Services</a>
         <a href="#contact">Contact</a>
       </nav>
 
