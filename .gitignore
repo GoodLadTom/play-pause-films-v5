@@ -8,8 +8,6 @@ desktop.ini
 __*.html
 *.tmp
 
-# Large showreel videos — too big for GitHub (>100 MB)
-assets/video/SHOWREELS/
 
 # Internal working files
 graphify-out/
