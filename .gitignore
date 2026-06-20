@@ -11,3 +11,8 @@ __*.html
 
 # Internal working files
 graphify-out/
+
+# Original uncompressed showreels — too large for GitHub (>100 MB)
+assets/video/SHOWREELS/Drone-Reel.mp4
+assets/video/SHOWREELS/hospitality-reel.mp4
+assets/video/SHOWREELS/music-reel.mp4

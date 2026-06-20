@@ -107,8 +107,12 @@ only from facts already on the site (no invented services, clients, awards or cl
 8. Contact — Get in touch, pricing matrix, email, phone, social
 9. Footer — wordmark, nav, sign-off watermark, live timecode
 
-On-page section numbering follows scroll order: 01 Studio · 02 Selected work ·
-03 Featured films · 04 Artist-to-client · 05 Visual reel · 06 Get in touch.
+On-page section numbering follows scroll order: 01 Mission · 02 Reels ·
+03 Portfolio · 04 Testimonials · 05 Services · 06 Contact.
+
+(Note: the **Testimonials** section currently holds the artist-to-client copy and the
+**Services** section currently holds the visual gallery — the labels were renamed but no
+testimonial quotes or services list have been invented.)
 
 ## Notes
 
