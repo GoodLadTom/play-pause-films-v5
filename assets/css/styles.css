@@ -111,7 +111,7 @@ h1,h2,h3,p{margin:0}
 .btn--solid:hover svg{transform:translate(3px,-3px)}
 .btn--ghost{color:var(--text);background:rgba(255,255,255,.02)}
 .btn--ghost:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
-.btn--ghost:hover svg{transform:translateY(3px)}
+.btn--ghost:hover svg{transform:translateX(3px)}
 .btn--lg{padding:1.05em 1.8em;font-size:.82rem}
 
 .link-cta{
