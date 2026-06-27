@@ -1,0 +1,4 @@
+# Uncompressed/unused source reels that sit loose in SHOWREELS/.
+# These exceed Vercel's 100 MB per-file limit and are NOT referenced by
+# the site — the page uses the comp versions in SHOWREELS/Mp4S/ instead.
+assets/video/SHOWREELS/*.mp4
